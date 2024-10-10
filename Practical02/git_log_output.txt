@@ -1,0 +1,119 @@
+commit 3996841ab9d5976a9a9c2b52bac04f5481915e18
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Sat Oct 5 23:27:15 2024 +0100
+
+    Added Comments to Conversion5.f90 to clarify variable use
+
+commit bf37b0593c4c1f24d0b320912e927a886700de8c
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Sat Oct 5 23:25:35 2024 +0100
+
+    Added Comments to Sum5.f90 to clarify variable use
+
+commit 96e084d634707297b904afd4b714a13f11bbc9d3
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 22:07:03 2024 +0100
+
+    Updated READ ME File
+
+commit 07ca8153ce5c876031353c145d15506f99ee5046
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 22:05:55 2024 +0100
+
+    REMOVE README
+
+commit 6f260bda9a2d0c1f583d7257b5ab5f207609e6d1
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 22:00:42 2024 +0100
+
+    Conversion5.90: Main CodeUpdating README file
+
+commit 8b8cbf6c97b73f777274657d31fb00c1625b0e5a
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:55:07 2024 +0100
+
+    Conversion5.90: Main Code
+
+commit 16794d31ff505d398aefa73e9a4870debc64223e
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:53:54 2024 +0100
+
+    Sum5.f90: Main Code
+
+commit 78f282d2c545294120e4a01b314ae207906d4ff0
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:24:33 2024 +0100
+
+    Remove the file Sum5.f90
+
+commit 8f2ddbe543fec6284fddf1ca2795b420d5cede53
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:22:34 2024 +0100
+
+    Remove the file Conversion5.f90
+
+commit 18a8a240566b4a5e427daa9c648ccd4b68227b35
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:21:52 2024 +0100
+
+    Remove the file Conversion6.f90
+
+commit a20d2571ff21ce5df1e323b36576ab7c5db56685
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:18:13 2024 +0100
+
+    Added README.md to Practical02
+
+commit 5b2f64d6903c37adb7a10960a37fe3c5eee5ba0e
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:05:15 2024 +0100
+
+    Added Sum4.f90 to Practical02
+
+commit 26b38d0ba93a82eee1decd3d00635802b30b13bf
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:04:29 2024 +0100
+
+    Added Sum3.f90 to Practical02
+
+commit c307fcee7a0534a1e7aad72747c359168d4482d2
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:03:45 2024 +0100
+
+    Added Sum2.f90 to Practical02
+
+commit 0461f1218ebcf8ba36f3237e9b22810a191fadf9
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 21:03:10 2024 +0100
+
+    Added Sum.f90 to Practical02
+
+commit d6041700e0571a499baea4940f564c129d911abd
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 20:59:41 2024 +0100
+
+    Added Conversion4.f90 to Practical02
+
+commit d48b79cab5835f02fee68149fd389b8c097365a6
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 20:58:30 2024 +0100
+
+    Added Conversion3.f90 to Practical02
+
+commit c5c16dfaaa134a9d18308f780c00b6816f187c03
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 20:57:12 2024 +0100
+
+    Added Conversion2.f90 to Practical02
+
+commit 501789a829cd33a6c9109ed448e3cde04bed803c
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 20:55:02 2024 +0100
+
+    Added Conversion.f90 to Practical02
+
+commit 8070af87f54d8d1d01169b701c118bd8eec90da8
+Author: Alireza Eftekhari <eftalireza@proton.me>
+Date:   Wed Oct 2 20:25:32 2024 +0100
+
+    Add Introduction to Git Assignment
