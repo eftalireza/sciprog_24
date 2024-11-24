@@ -1,0 +1,62 @@
+module msquare
+    implicit none
+contains
+    ! Checks if a matrix is a magic square.
+    ! A magic square is an n-sided matrix whose sum of values for each
+    ! row, column, main and secondary diagonals equals to n(n^2 + 1)/2.
+    ! The function takes as input a matrix 'square' and its side length 'n'
+    ! and outputs .FALSE. if 'n' is negative or 'square' is NOT a magic square;
+    ! otherwise, outputs .TRUE.
+
+    function isMagicSquare(square, n) result(is_magic)
+        logical :: is_magic                       ! Logical result indicating if it's a magic square
+        integer(kind=4), intent(in) :: n         ! Side length of the matrix
+        integer(kind=4), intent(in) :: square(n, n) ! The matrix to check
+        integer(kind=4) :: M                     ! Sum that every row, column, and diagonal should equal
+        integer(kind=4) :: i                     ! Loop variable
+        integer(kind=4) :: diagSum, secDiagSum   ! Sums of the main and secondary diagonals
+        integer(kind=4) :: rowSum(n), colSum(n)  ! Arrays to hold sums of rows and columns
+
+        ! Initialize the result as TRUE
+        is_magic = .TRUE.
+
+        ! Eliminate the case where 'n' is negative
+        if (n < 0) then
+            is_magic = .FALSE.
+            return
+        end if
+
+        ! M is the sum of every row, column,
+        ! and the main and secondary diagonals
+        M = (n * (n * n + 1)) / 2
+
+        ! TODO: Checking that every row and column add up to M
+        rowSum = sum(square, dim=2)  ! Calculate the sum of each row
+        colSum = sum(square, dim=1)  ! Calculate the sum of each column
+
+        ! If any row or column does not sum to M, it's not a magic square
+        if (any(rowSum /= M) .or. any(colSum /= M)) then
+            is_magic = .FALSE.
+            return
+        end if
+
+        ! TODO: Checking that the main and secondary
+        ! diagonals each add up to M
+        diagSum = 0         ! Initialize main diagonal sum
+        secDiagSum = 0      ! Initialize secondary diagonal sum
+
+        do i = 1, n
+            diagSum = diagSum + square(i, i)              ! Add elements of the main diagonal
+            secDiagSum = secDiagSum + square(i, n - i + 1) ! Add elements of the secondary diagonal
+        end do
+
+        ! If either diagonal does not sum to M, it's not a magic square
+        if (diagSum /= M .or. secDiagSum /= M) then
+            is_magic = .FALSE.
+            return
+        end if
+
+        ! If passed all checks, it is a magic square, and is_magic remains TRUE
+    end function isMagicSquare
+end module msquare
+
